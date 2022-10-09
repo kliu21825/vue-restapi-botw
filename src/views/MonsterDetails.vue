@@ -1,7 +1,7 @@
 <script setup>
   import { onMounted, onUnmounted } from 'vue'
   import { useRoute } from 'vue-router'
-  import useMonsters from '@/composables/useMonsters'
+  import useMonsters from '@/composables/useMonsters.js'
 
   const route = useRoute()
   const { fetchMonster, currentMonster } = useMonsters()

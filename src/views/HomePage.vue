@@ -1,7 +1,7 @@
 <script setup>
   import { onMounted } from 'vue'
   import BaseCard from '@/components/BaseCard.vue'
-  import useMonsters from '@/composables/useMonsters'
+  import useMonsters from '@/composables/useMonsters.js'
 
   const { monsters, fetchMonsters, firstLoad } = useMonsters()
 
