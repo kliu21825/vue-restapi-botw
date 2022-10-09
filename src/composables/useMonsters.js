@@ -23,7 +23,13 @@ const useMonsters = () => {
     currentMonster.value = data.data
   }
 
-  return { monsters, fetchMonsters, fetchMonster, currentMonster, firstLoad }
+  return {
+    monsters,
+    fetchMonsters,
+    fetchMonster,
+    currentMonster,
+    firstLoad,
+  }
 }
 
 export default useMonsters

@@ -22,7 +22,7 @@
     🚀
   </button>
 
-  <main class="min-h-screen bg-gradient-to-r from-lime-600 to-emerald-900">
+  <main class="min-h-screen bg-gradient-to-r from-fuchsia-900 to-red-700">
     <div class="container mx-auto grid grid-cols-4 gap-4 py-8">
       <BaseCard v-for="monster in monsters" :key="monster.id" :monster="monster" />
     </div>

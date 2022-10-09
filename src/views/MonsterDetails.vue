@@ -17,7 +17,7 @@
 </script>
 
 <template>
-  <main class="min-h-screen bg-gradient-to-r from-green-400 to-green-900 py-8 text-white">
+  <main class="min-h-screen bg-gradient-to-r from-fuchsia-900 to-red-700 py-8 text-white">
     <div v-if="currentMonster" class="flex flex-col items-center justify-center gap-6">
       <img :src="currentMonster.image" :alt="currentMonster.name" />
       <h1 class="text-white-800 text-6xl font-semibold">Hi, I'm {{ currentMonster.name }}</h1>
