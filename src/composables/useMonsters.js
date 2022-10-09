@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import useApi from '@/composables/useApi.js'
+import useApi from '@/composables/useAPI'
 
 const monsters = ref([])
 const currentMonster = ref(null)
