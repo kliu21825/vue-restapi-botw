@@ -1,11 +1,11 @@
 import { ref } from 'vue'
-import useApi from '@/composables/useAPI'
+import useAPI from '@/composables/useAPI'
 
 const monsters = ref([])
 const currentMonster = ref(null)
 const firstLoad = ref(true)
 
-const api = useApi()
+const api = useAPI()
 const page = ref(1)
 
 const useMonsters = () => {

@@ -4,8 +4,8 @@ const instance = axios.create({
   baseURL: 'https://botw-compendium.herokuapp.com/api/v2',
 })
 
-const useApi = () => {
+const useAPI = () => {
   return { instance }
 }
 
-export default useApi
+export default useAPI
